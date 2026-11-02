@@ -13,5 +13,4 @@ for kod in range(128):  #0-127 arasındaki kodlar (sayılar) için
     else:  #Diğer karakterler
         karakter = chr(kod)
         
-    # Dersin başında öğrendiğimiz virgül ile yazdırma yöntemi
     print(kod, "          |", karakter)
